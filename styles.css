@@ -1,0 +1,112 @@
+/* This below code is for styling the vacation destinations wishlist webpage featuring a pink and light blue color scheme, 
+with responsive two-column layout containing a form and display cards for destination entries */
+
+h1, h2, h3, h4, ul, li, p{
+    margin: 0;
+    padding: 0;
+}
+
+img { 
+    max-width: 100%;
+    min-height: 200px;
+    min-width: auto;
+    object-fit: cover;
+    border: solid;
+
+    }
+
+body{
+    font-family: Helvetica;
+    color: deeppink;
+    border: 5px double deeppink;
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: lightblue;
+
+}
+
+header{
+    padding: 10px;
+    background-color: hotpink;
+    text-align: center;
+    color: white;
+    margin-bottom:20px;
+    margin: auto;
+    border: solid;
+    border-style:dashed;
+
+
+
+
+}
+
+main {
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between ;
+    text-align: justify;
+}
+
+main form {
+    width : 50%;
+
+}
+
+main article {
+    width : 45%;
+}
+
+h1,h2,h3,h4,p{
+    margin-bottom: 1em;
+}
+
+#title{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 1em;
+
+}
+
+input, textarea, #destination_details_form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1px solid lightpink;
+    padding: 15px; 
+    box-sizing: border-box;
+    font-style: italic;
+    color: lightcoral;
+    
+
+
+}
+
+.card{
+    padding: 20px;
+    background-color: lightpink;
+    margin-bottom: 20px;
+}
+
+
+button {
+    background-color: salmon;
+    color: white; /* This makes the text white for better contrast */
+    border: none; /* This removes the default border */
+    padding: 10px 20px; /* This adds some padding inside the button */
+    cursor: pointer; /* This changes the cursor to a hand when hovering over the button */
+    transition: background-color 0.3s; /* This adds a smooth transition effect */
+}
+
+
+
+#copyright
+{
+    padding-top: 12px;
+    font-size: 0.75em;
+}
